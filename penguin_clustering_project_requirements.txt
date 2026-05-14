@@ -1,0 +1,32 @@
+# Penguin Clustering Project Requirements
+
+Use clustering to group penguins based on numerical measurements.
+
+The project should include the following steps:
+
+Read in the penguins dataset using pandas.
+
+Inspect and clean the dataset as needed:
+- Check for missing values.
+- Remove or handle rows with missing data.
+- Exclude non-numeric columns from the clustering model.
+
+Prepare the feature DataFrame for clustering using appropriate numeric variables from the original dataset.
+
+Apply a clustering model, such as KMeans, to group the penguins into clusters.
+
+Add the predicted cluster labels back to the penguins DataFrame as a column named "cluster".
+
+Create a DataFrame named "stat_penguins".
+
+The output DataFrame "stat_penguins" should:
+- Have one row per cluster.
+- Show the mean values of the original numeric variables by cluster.
+- Not include any non-numeric columns.
+
+The project should demonstrate:
+- Data preprocessing
+- Numeric feature selection
+- Unsupervised learning
+- Cluster assignment
+- Cluster summary statistics
